@@ -117,7 +117,7 @@ def main():
         conn.close()
 
     print(f"Database created: {db_path}")
-    print("Part I complete: Database Management")
+    print("Part 1 complete: Database Management")
 
 if __name__ == "__main__":
     main()
