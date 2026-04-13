@@ -80,9 +80,9 @@ st.subheader("Average B Cells Answer")
 if os.path.exists(answer_path):
     with open(answer_path, "r") as f:
         answer = f.read().strip()
-    st.metric(
-        label="Melanoma males, responders, time = 0, average B cells",
-        value=answer
+    st.markdown(
+        f"The average number of B cells for responders at time=0 is: **{answer}**"
     )
 else:
     st.warning("Final Part 4 answer not found.")
+
