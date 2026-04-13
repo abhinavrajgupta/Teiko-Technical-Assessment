@@ -71,11 +71,11 @@ The repository is intentionally kept simple so that it is easy to run, test, and
 
 ## How to Run the Project
 
-The assignment states that the project will be tested using **GitHub Codespaces**, so I designed the project to run with only the Makefile commands requested in the form. [page:1]
+The assignment states that the project will be tested using **GitHub Codespaces**, so I designed the project to run with only the Makefile commands.
 
 ### Step 1: Open in GitHub Codespaces
 
-1. Push the repository to GitHub.
+1. Clone the repository to your GitHub space.
 2. Open the repository in your browser.
 3. Click **Code**.
 4. Click the **Codespaces** tab.
