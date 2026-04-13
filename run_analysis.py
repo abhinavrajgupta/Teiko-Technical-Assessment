@@ -210,7 +210,7 @@ def main():
               AND LOWER(s.treatment) = 'miraclib'
               AND LOWER(s.sample_type) = 'pbmc'
               AND s.time_from_treatment_start = 0
-              AND LOWER(s.sex) = 'male'
+              AND LOWER(s.sex) = 'm'
               AND LOWER(s.response) = 'yes'
               AND cc.population = 'b_cell'
             """,
