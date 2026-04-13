@@ -325,6 +325,7 @@ This design scales reasonably well for that case.
 For example, if there were 200 projects, 20,000 samples, and 25 immune cell populations instead of 5, I could still use the same schema. The only difference would be more rows in `cell_counts`, not a redesign of the whole database.
 
 That is why I chose this design: it is simple enough for this assessment, but flexible enough for larger data. If the dataset became very large in a real-world setting, performance could be improved further through batching, indexing, and parallel processing. For example, parts of the pipeline such as file preprocessing, summary generation, or independent analyses could be parallelized to make use of additional CPU cores.
+
 ---
 
 ## Part 2: Initial Analysis – Data Overview
